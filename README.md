@@ -42,6 +42,7 @@ ros2 run democar_telop democar_telop_node
 ```
 2.2 通过控制算法控制小车
 同样按照2.1先打开终端并索引到文件夹
+
 2.2.1. 纯跟踪算法
 ```
 ros2 launch democar_core democar_purepursuit.launch.py
