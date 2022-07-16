@@ -1,0 +1,23 @@
+/lqr_controller:
+  ros__parameters:
+    car_length: 0.4
+    # car_length: 0.56896
+    body_mass: 30.0
+    # body_mass: 82
+    #front_left_wheel_mass: 82.0
+    #front_right_wheel_mass: 82.0
+    #rear_left_wheel_mass: 82.0
+    #rear_right_wheel_mass: 82.0
+    front_left_wheel_mass: 30.0
+    front_right_wheel_mass: 30.0
+    rear_left_wheel_mass: 30.0
+    rear_right_wheel_mass: 30.0
+    # imu_mass: 0.1
+    # front_wheel_length: 0.2
+    # rear_wheel_length: 0.2
+    front_wheel_stiffiness: 1.0
+    rear_wheel_stiffiness: 1.0
+    control_period: 0.01
+    max_steer_angle: 25.0
+    lqr_epsilon: 0.01
+    reference_velocity: 0.5
